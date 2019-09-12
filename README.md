@@ -1,11 +1,23 @@
 # twitchlert
 Twitch SMS notification, you will be notified when your favourite streamer is live.
 
-## Get started
+## Requirements
+Python 3.7
+
+Twitch Developer API
+
+Twillio Account
+
+## Getting Started
+Get Twtich Developer Client ID
+
+Setup Twillio account
+
 Clone this repo, move to twithlert directory and then `pip install -r requirements.txt`
 
-## How to use
+## How To Use
 `cp .env.example .env`
+
 `python app.py`
 
 ## Improvements
