@@ -1,5 +1,5 @@
 # twitchlert
-Twitch SMS notification, you will be notified when your favourite streamer is live.
+Twitch SMS notification, get notified when your favourite streamer is live.
 
 ## Requirements
 Python 3.7
