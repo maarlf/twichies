@@ -1,4 +1,4 @@
-# twitchlert
+# Twitchies
 A Twitch SMS notification app, get notified when your favourite streamer is live.
 
 ## Requirements
@@ -21,5 +21,4 @@ Clone this repo, move to twithlert directory and then `pip install -r requiremen
 `python app.py`
 
 ## Improvements
-- [ ] Upload to Heroku
-- [ ] Use scheduling
+- [ ] Host it
