@@ -2,23 +2,28 @@
 A Twitch SMS notification app, get notified when your favourite streamer is live.
 
 ## Requirements
-Python 3.7
+- Python 3.7
+- Twitch Developer API
+- Twillio Account
 
-Twitch Developer API
+## Libraries
+- requests, to pull API data
+- time, to set timeouts
+- twilio client, to send SMS
 
-Twillio Account
-
-## Getting Started
-Get Twtich Developer Client ID
-
-Setup Twillio account
-
-Clone this repo, move to twithlert directory and then `pip install -r requirements.txt`
+## Preparations
+- Get Twtich.tv Developer Client ID
+- Setup Twillio account
+- Clone this repo, move to `twitchies` directory and then run `pip install -r requirements.txt`
 
 ## How To Use
-`cp .env.example .env`
 
-`python app.py`
+Copy environment variables
+```
+$ cp .env.example .env
+```
 
-## Improvements
-- [ ] Host it
+Run it
+```
+$ python app.py
+```
